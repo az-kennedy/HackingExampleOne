@@ -1,10 +1,10 @@
 <?php
 
 if (($_POST['username']) == "User1" && ($_POST['password']) == "Password1!") {
-  echo "Success!  You hacked the website, nice job! \r\n \r\n";
+  echo "Success!  You hacked the website, nice job!";
   echo "<br>";
   echo "<br>";
-  echo "The next exercise is located at this URL: [https://webapp-ndclhackingexercisestwo.azurewebsites.net] \r\n \r\n";
+  echo "The next exercise is located at this URL: [https://webapp-ndclhackingexercisestwo.azurewebsites.net]";
   echo "<br>";
   echo "<br>";
   echo "Hint: Use SQL Injection";
