@@ -6,6 +6,7 @@ if (($_POST['username']) == "User1" && ($_POST['password']) == "Password1!") {
   echo "<br>";
   echo "The next exercise is located at this URL: [https://webapp-ndclhackingexercisestwo.azurewebsites.net]";
   echo "<br>";
+  echo "Hint: You will need to use SQL Injection to solve the next problem";
 } else {
   echo "Wrong username and password. Try again";
   echo "<br>";
